@@ -1,10 +1,10 @@
 import "./App.css";
 import AppRouters from "./components/router";
-
+import DashboardContent from "./components/dashboard/Dashboard";
 function App() {
   return (
     <div>
-      <h1>Hello React</h1>
+      <DashboardContent />
       <AppRouters></AppRouters>
     </div>
   );

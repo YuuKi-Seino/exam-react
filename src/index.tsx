@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SecondRoot from "./views/secondroot";
 import FirstRoot from "./views/firstroot";
+import HololiveTalent from "./views/hololive/holotalent";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -17,6 +18,7 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="firstroot" element={<FirstRoot />} />
         <Route path="secondroot" element={<SecondRoot />} />
+        <Route path="hololive" element={<HololiveTalent />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

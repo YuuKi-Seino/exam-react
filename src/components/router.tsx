@@ -8,6 +8,7 @@ export default function AppRouters() {
         paddingBottom: "1rem",
       }}
     >
+      <Link to="/hololive">HololiveTalent</Link>|{""}
       <Link to="/firstroot"> FirstRoot</Link>|{""}
       <Link to="/secondroot">SecondRoot </Link>|{""}
     </nav>
